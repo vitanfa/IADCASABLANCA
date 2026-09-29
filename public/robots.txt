@@ -1,0 +1,42 @@
+# robots.txt — infirmieradomicile.ma
+# Tous les crawlers autorisés (sauf bots agressifs commerciaux)
+
+User-agent: *
+Allow: /
+
+# Bloquer crawlers SEO commerciaux qui surchargent inutilement
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Autoriser explicitement les crawlers IA pour AEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://infirmieradomicile.ma/sitemap.xml

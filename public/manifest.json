@@ -1,0 +1,27 @@
+{
+  "name": "Infirmier à Domicile Casablanca - Mohamed",
+  "short_name": "Infirmier Casa",
+  "description": "Infirmier urgentiste à domicile 24h/24 à Casablanca. Intervention en moins de 30 minutes. Soins, injections, perfusions, pansements.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "lang": "fr-MA",
+  "dir": "ltr",
+  "categories": ["medical", "health"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
