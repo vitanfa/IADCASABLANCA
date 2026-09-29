@@ -50,13 +50,12 @@ export default function About() {
               À propos
             </span>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-gray-900 mt-3 mb-6">
-              SOS Healthcare Services — Mohamed RABEH
+              SOS Healthcare Services
             </h2>
 
             {/* Bloc 1 — accroche */}
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              SOS Healthcare Services, géré par Mohamed RABEH, infirmier urgentiste à domicile à Casablanca depuis 10 ans.<br />
-              Formé dans les services d'urgences hospitaliers de Casablanca.
+              SOS Healthcare Services, un service d'infirmiers urgentistes à domicile à Casablanca depuis 10 ans.
             </p>
 
             {/* Bloc 2 — zones comme pills */}
