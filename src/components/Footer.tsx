@@ -31,7 +31,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
-              Mohamed RABEH — infirmier urgentiste à domicile, Casablanca.
+              Infirmier à domicile, Casablanca.
               24h/24, 7j/7, jours fériés inclus. 06 63 21 94 41.
             </p>
             <div className="space-y-3">
