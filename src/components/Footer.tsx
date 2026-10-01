@@ -26,9 +26,12 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img src="/logo.png" alt="SOS Healthcare Services" className="w-14 h-14 object-contain flex-shrink-0" style={{ filter: 'brightness(0) invert(1)' }} />
-              <span className="font-bold text-sm tracking-widest uppercase text-white">
-                SOS Healthcare Services
-              </span>
+             <span className="font-bold text-sm tracking-widest uppercase text-white">
+  SOS Healthcare Services
+  <span className="block text-xs normal-case tracking-normal font-normal text-white/60 mt-1">
+    Infirmier à domicile est un département de SOS Healthcare Services
+  </span>
+</span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Infirmier à domicile, Casablanca.
