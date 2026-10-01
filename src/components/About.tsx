@@ -27,7 +27,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="src="/infirmier_illustration_sans_texte.svg"
+                src="/infirmier_illustration_sans_texte.svg"
                 alt="Infirmier à domicile à Casablanca — 10 ans d'expérience, 518 avis Google 5/5"
                 loading="lazy"
                 decoding="async"
