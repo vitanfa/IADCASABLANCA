@@ -55,7 +55,7 @@ export default function About() {
 
             {/* Bloc 1 — accroche */}
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              SOS Healthcare Services, un service d'infirmiers urgentistes à domicile à Casablanca depuis 10 ans.
+             Infirmier à domicile est un département de SOS Healthcare Services, société d'assistance médicale à Casablanca. Notre équipe d'infirmiers urgentistes intervient à domicile depuis 10 ans.
             </p>
 
             {/* Bloc 2 — zones comme pills */}
