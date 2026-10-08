@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
@@ -7,12 +7,11 @@ import HowItWorks from './components/HowItWorks';
 import Services from './components/Services';
 import Guarantees from './components/Guarantees';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import AppointmentForm from './components/AppointmentForm';
 import Footer from './components/Footer';
 import { initGtag, trackConversion } from './lib/analytics';
-
-const Testimonials = lazy(() => import('./components/Testimonials'));
-const FAQ = lazy(() => import('./components/FAQ'));
-const AppointmentForm = lazy(() => import('./components/AppointmentForm'));
 
 export default function App() {
   useEffect(() => { initGtag(); }, []);
@@ -27,15 +26,9 @@ export default function App() {
       <Services />
       <Guarantees />
       <About />
-      <Suspense fallback={null}>
-        <Testimonials />
-      </Suspense>
-      <Suspense fallback={null}>
-        <FAQ />
-      </Suspense>
-      <Suspense fallback={null}>
-        <AppointmentForm />
-      </Suspense>
+      <Testimonials />
+      <FAQ />
+      <AppointmentForm />
       <Footer />
 
       {/* Bouton Téléphone flottant */}
