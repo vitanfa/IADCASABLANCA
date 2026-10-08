@@ -26,8 +26,10 @@ export function initGtag(): void {
   document.head.appendChild(script);
 
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function gtag(...args: unknown[]) {
-    window.dataLayer.push(args);
+  // gtag.js ne lit que l'objet `arguments` : un tableau (...args) est ignoré et rien n'est envoyé à Google.
+  window.gtag = function gtag() {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer.push(arguments);
   };
   window.gtag('js', new Date());
 
